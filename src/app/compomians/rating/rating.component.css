@@ -1,0 +1,26 @@
+button { padding: 10px 30px;
+         margin: 30px auto;
+         display: block;
+         background-color: rgb(1, 148, 247);
+         color: white;
+         border-radius: 7px;
+         border: none;
+         transition: .5s;
+         display: flex;
+}
+
+button:hover { outline: 7px rgb(131, 215, 248) solid; }
+
+@keyframes change {
+    0% {transform: rotate(0)  ;}
+    70% {transform: rotate(180deg);}
+    100%{ transform: rotate(360deg); }
+  }
+
+span { animation-name:  change  ;
+    animation-duration: 1s;
+    animation-iteration-count: infinite; 
+    display: block;
+    animation-timing-function: ease;
+    margin: 0 5px;
+}

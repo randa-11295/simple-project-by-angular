@@ -1,0 +1,21 @@
+img { width: 100px;
+      height: 100px; 
+      background-color: yellowgreen;
+      margin: 0 25px;
+    border-radius: 50%;}
+
+
+    div { display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    aside { display: flex;}
+
+    aside i { margin: 0 10px 10px 0;
+              color:  rgb(104, 150, 250);
+    }
+
+    h3 { margin: 10px 30px;
+        display: block;
+     }
