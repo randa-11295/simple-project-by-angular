@@ -1,4 +1,6 @@
 
+<input [(ngModel)]="data" (input)="changeFn()" />
+ 
 
-<app-ductors [item]="DocItem" *ngFor="let DocItem of list" ></app-ductors>   
+<app-ductors [item]="DocItem" *ngFor="let DocItem of newList" ></app-ductors>   
 <app-rating></app-rating>
